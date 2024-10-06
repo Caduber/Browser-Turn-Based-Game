@@ -1,7 +1,6 @@
 barraHp = document.getElementById("hp-heroi-atual")
 goblinHp = document.getElementById("hp-goblin-atual")
 texto1 = document.getElementById("texto-luta-ant")
-spriteHeroi = document.getElementById("sprite-heroi")
 
 function darDano() {
     goblin.hp = goblin.hp - (heroi.dmg * heroi.multiplicador)
@@ -12,7 +11,7 @@ function darDano() {
 //
     goblinHp.style.width = (goblin.hp / 60) * 100 + "%"
 
-    texto1.innerHTML = "O oponente sofreu " + (heroi.dmg * heroi.multiplicador) + " de dano!"
+    texto1.innerHTML = "O goblin sofreu " + (heroi.dmg * heroi.multiplicador) + " de dano!"
     heroi.multiplicador = 1
     console.log(goblin.hp)
 }
@@ -24,7 +23,7 @@ function prepararAtaque(){
 }
 
 function assustarInimigo(){
-    goblin.multiplicador = goblin.multiplicador * 0.75
+    goblin.multiplicador = goblin.multiplicador * 0.6
     texto1.innerHTML =  "O inimigo está fragilizado"
 }
 
