@@ -29,23 +29,23 @@
                 </div>
             </div>
         </section>
-        <button onclick="tomarDano(10)" id="receberAtaque">Receber Ataque</button>
+        <button onclick="tomarDano()" id="receberAtaque">Receber Ataque</button>
 
 
         <section id="section-GUI">
             <div id="caixa-acoes">
                 <div id="acoes">
-                    <button onclick="darDano()">
+                    <button class="btn-act" onclick="darDano()">
                         Estocada Fugaz
                     </button>
-                    <button onclick="prepararAtaque()">
+                    <button class="btn-act" onclick="prepararAtaque()">
                         Preparar Ataque
                     </button>
                     <br>
-                    <button onclick="enfaixarFeridas()">
+                    <button class="btn-act" onclick="enfaixarFeridas()">
                         Enfaixar Feridas
                     </button>
-                    <button onclick="assustarInimigo()">
+                    <button class="btn-act" onclick="assustarInimigo()">
                         Assustar Inimigo
                     </button>
                 </div>
@@ -59,5 +59,6 @@
     </main>
 </body>
 <script src="pesonagens.js"></script>
+<script src="acaoGoblin.js"></script>
 </html>
 <script src="acao.js"></script>
