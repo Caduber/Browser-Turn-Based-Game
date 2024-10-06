@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/heroi.css">
+    <link rel="stylesheet" href="CSS/goblin.css">
+    <link rel="stylesheet" href="CSS/caixaTexto.css">
+    <link rel="stylesheet" href="CSS/batalha.css">
+    <title>Jogo Turnos</title>
+</head>
+<body>
+    <main>
+        <section id="batalha">
+            <div id="heroi">
+                <div id="hp-heroi">
+                    <div id="hp-heroi-atual"></div>
+                </div>
+                <div>
+                    <img src="Assets/ladra.png" alt="">
+                </div>
+            </div>
+            <div id="goblin">
+                <div id="hp-goblin">
+                    <div id="hp-goblin-atual"></div>
+                </div>
+                <div>
+                    <img src="Assets/goblin.png" alt="">
+                </div>
+            </div>
+        </section>
+        <button onclick="tomarDano(10)" id="receberAtaque">Receber Ataque</button>
+
+
+        <section id="section-GUI">
+            <div id="caixa-acoes">
+                <div id="acoes">
+                    <button onclick="darDano()">
+                        Estocada Fugaz
+                    </button>
+                    <button onclick="prepararAtaque()">
+                        Preparar Ataque
+                    </button>
+                    <br>
+                    <button onclick="enfaixarFeridas()">
+                        Enfaixar Feridas
+                    </button>
+                    <button onclick="assustarInimigo()">
+                        Assustar Inimigo
+                    </button>
+                </div>
+                <div id="texto-combate">
+                    <p id="texto-luta-ant"></p>
+                    <p id="texto-luta">...</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+<script src="pesonagens.js"></script>
+</html>
+<script src="acao.js"></script>
