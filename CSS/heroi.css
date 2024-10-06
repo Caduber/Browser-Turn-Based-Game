@@ -23,7 +23,8 @@
     width: 100%;
 }
 
-#heroi img{
+#sprite-heroi{
+    width: 330px;
     animation-name: respiracao;
     animation-duration: 1.5s;
     animation-direction: alternate;
