@@ -7,6 +7,7 @@ function darDano() {
 // Corrigindo para valores negativos
     if(goblin.hp <= 0){
         goblin.hp = 0
+        document.getElementById("win-content").style.display = "inline-flex"
     }
 //
     goblinHp.style.width = (goblin.hp / 60) * 100 + "%"

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/goblin.css">
     <link rel="stylesheet" href="CSS/caixaTexto.css">
     <link rel="stylesheet" href="CSS/batalha.css">
+    <link rel="stylesheet" href="CSS/vitoriaderrota.css">
     <title>Jogo Turnos</title>
 </head>
 <body>
@@ -33,17 +34,17 @@
         <section id="section-GUI">
             <div id="caixa-acoes">
                 <div id="acoes">
-                    <button class="btn-act" onclick="darDano()">
+                    <button title="Ataca o Alvo" class="btn-act" onclick="darDano()">
                         Estocada Fugaz
                     </button>
-                    <button class="btn-act" onclick="prepararAtaque()">
+                    <button title="Multiplica o dano seu próximo ataque" class="btn-act" onclick="prepararAtaque()">
                         Preparar Ataque
                     </button>
                     <br>
-                    <button class="btn-act" onclick="enfaixarFeridas()">
+                    <button title="Cura o seu personagem em 20 de hp" class="btn-act" onclick="enfaixarFeridas()">
                         Enfaixar Feridas
                     </button>
-                    <button class="btn-act" onclick="assustarInimigo()">
+                    <button title="Divide (Diminui o dano do próximo ataque do nimigo)" class="btn-act" onclick="assustarInimigo()">
                         Assustar Inimigo
                     </button>
                 </div>
@@ -55,6 +56,29 @@
         </section>
 
     </main>
+
+    <section id="lose-screen">
+        <div id="lose-content">
+            <div id="lose-texto">
+                <h1>Você Perdeu!</h1>
+                <article>Ruinzao</article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="win-screen">
+        <div id="win-content">
+            <div id="win-texto">
+                <h1>Você ganhou!</h1>
+                <article>Me faz um pix</article>
+            </div>
+        </div>
+    </section>
+
+    <section id="lose-screen">
+
+    </section>
+
 </body>
 <script src="pesonagens.js"></script>
 <script src="acaoGoblin.js"></script>

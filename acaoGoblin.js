@@ -34,6 +34,7 @@ function tomarDano() {
     if(heroi.hp <= 0){
         heroi.hp = 0
         spriteHeroi.style.animationName = "none"
+        document.getElementById("lose-content").style.display = "inline-flex"
     }
 //    
     barraHp.style.width = heroi.hp + '%'
