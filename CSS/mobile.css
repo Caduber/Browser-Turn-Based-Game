@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 
     /*Personaegns*/
 
@@ -79,7 +79,7 @@
     }
 
     .btn-act{
-        background: linear-gradient(355deg, rgba(238,240,242,1) 0%, rgb(185, 41, 41) 20%);
+        background: linear-gradient(355deg, rgba(238,240,242,1) 0%, rgb(171, 101, 40) 20%);
         color: white;
         border-radius: 2px;
         text-shadow: #444;
