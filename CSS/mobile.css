@@ -78,6 +78,13 @@
         flex-direction: row;
     }
 
+    .btn-act{
+        background: linear-gradient(355deg, rgba(238,240,242,1) 0%, rgb(185, 41, 41) 20%);
+        color: white;
+        border-radius: 2px;
+        text-shadow: #444;
+    }
+
     #acoes button{
         font-size: 10px;
     }
