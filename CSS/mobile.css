@@ -74,8 +74,8 @@
     }
 
     #acoes{
-        display: flex;
-        
+        display: block;
+        flex-direction: row;
     }
 
     #acoes button{
