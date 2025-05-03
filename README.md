@@ -40,12 +40,9 @@ Herói: O personagem controlado pelo jogador.
 Cada personagem possui habilidades e atributos únicos, definidos nos arquivos acaoGoblin.js, acaoMusgo.js e personagens.js.
 
 #  🎮 Como Jogar
-Clone o repositório:
 
-bash
-Copiar
-Editar
-git clone https://github.com/Caduber/FrontEndJogo.git
+Acesse: [https://Caduber.github.io/Browser-Turn-Based-Game/](url) e fique de olho nos tooltips 😉
+
 
 ##  2. Navegue até o diretório do projeto:
 
