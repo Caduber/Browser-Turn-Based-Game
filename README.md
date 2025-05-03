@@ -14,13 +14,21 @@ GitHub
 O projeto está organizado da seguinte forma:
 
 FrontEndJogo/
+
 ├── Assets/             # Recursos como imagens e sons
+
 ├── CSS/                # Arquivos de estilo
+
 ├── acao.js             # Lógica de ações dos personagens
+
 ├── acaoGoblin.js       # Comportamento específico do Goblin
+
 ├── acaoMusgo.js        # Comportamento específico do Musgo
+
 ├── personagens.js      # Definição dos personagens do jogo
+
 ├── index.html          # Página principal do jogo
+
 └── README.md           # Documentação do projeto 
 
 #  O jogo inclui personagens com comportamentos distintos:
