@@ -41,7 +41,8 @@ Cada personagem possui habilidades e atributos únicos, definidos nos arquivos a
 
 #  🎮 Como Jogar
 
-Acesse: [https://Caduber.github.io/Browser-Turn-Based-Game/]([url](https://Caduber.github.io/Browser-Turn-Based-Game/)) e fique de olho nos tooltips 😉
+Acesse: https://Caduber.github.io/Browser-Turn-Based-Game/
+e fique de olho nos tooltips 😉
 
 
 ##  2. Navegue até o diretório do projeto:
